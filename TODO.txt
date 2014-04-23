@@ -1,0 +1,3 @@
+Content - P0
+Color - P1
+Cards - P2
