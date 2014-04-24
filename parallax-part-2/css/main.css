@@ -240,6 +240,15 @@ main {
 	background-color: rgba(255,255,255,0.70);
 	margin-bottom: 1px;
 }
+
+header a {
+	text-decoration: none;
+	color: white;
+	height: 100%;
+	width: 100%;
+	transition-duration: 1.5s;
+}
+
 .no-rgba  #slideNav li {background-color: #ffffff}
 #slideNav a {
 	display: block;
@@ -491,3 +500,53 @@ main {
 .flip-container:hover .flipper, .flip-container.hover .flipper, .flip-container.flip .flipper {
 	transform: rotateY(180deg);
 }
+
+header {
+	background: #49423a;
+	font-family: 'BrandonGrotesque-Regular';
+	text-align: center;
+	padding: 10px 0; 
+	position: fixed;
+	z-index: 100;
+	width: 100%;
+}
+
+@media screen and (min-width: 40em) {
+  .js .nav-collapse {
+    position: relative;
+  }
+  .js .nav-collapse.closed {
+    max-height: none;
+  }
+  .nav-toggle {
+    display: none;
+  }
+}
+
+nav {
+	background: #49423a;
+	font-family: 'BrandonGrotesque-Regular';
+	color: #e4d7c5;
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+	padding: 20px 5px;
+	list-style: none;
+	text-decoration: none;
+	text-align: center;
+	
+}
+
+ul {
+	padding: 5px;
+	margin: 0;
+	color: #fff;
+}
+
+ul li {
+	list-style: none;
+	display: inline;
+	padding: 0px 8px;
+}
+
+
