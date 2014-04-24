@@ -147,34 +147,34 @@ main {
 	width: 100%;
 }
 /* Slide 1 */
-#slide-1 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
+#home .bcg {background-image:url('../img/bcg_slide-1.jpg')}
 
 /* Slide 2 */
-#slide-2 .bcg {background: none; background-color: #010101; text-align: center}
+#events .bcg {background: none; background-color: #010101; text-align: center}
 
 /* Slide 3 */
-#slide-3 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
+#slide-3 .bcg {background-image:url('../img/bcg_slide-3.jpg')}
 
 /* Slide 4 */
-#slide-4 .bcg {background: none; background-color: #010101; text-align: center}
+#schedule .bcg {background: none; background-color: #010101; text-align: center}
 
 /* Slide 5 */
-#slide-5 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
+#slide-5 .bcg {background-image:url('../img/bcg_slide-5.jpg')}
 
 /* Slide 6 */
-#slide-6 .bcg {background: none; background-color: #010101; text-align: center}
+#venue .bcg {background: none; background-color: #010101; text-align: center}
 
 /* Slide 7 */
-#slide-7 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
+#slide-7 .bcg {background-image:url('../img/bcg_slide-7.jpg')}
 
 /* Slide 8 */
-#slide-8 .bcg {background: none; background-color: #010101; text-align: center}
+#registrations .bcg {background: none; background-color: #010101; text-align: center}
 
 /* Slide 9 */
-#slide-9 .bcg {background-image:url('../img/bcg_slide-1.jpg')}
+#slide-9 .bcg {background-image:url('../img/bcg_slide-9.jpg')}
 
 /* Slide 10 */
-#slide-10 .bcg {background: none; background-color: #010101; text-align: center}
+#contact .bcg {background: none; background-color: #010101; text-align: center}
 
 .hsContainer {
 	display: table;
@@ -257,7 +257,7 @@ nav ul li {
 }
 .no-rgba  #slideNav li {background-color: #ffffff}
 #slideNav a {
-	display: block;
+	display: none;
 	width: 50px;
 	height: 50px;
 	position: relative;
