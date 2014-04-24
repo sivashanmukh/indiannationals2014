@@ -6,8 +6,8 @@ background-color: #FAFAFA;
 padding: 10px;
 margin-bottom: 20px;
 float: left;
-width: 224px;
-height: 200px;
+width: 160px;
+height: 220px;
 margin: 10px 8px;
 }
 
@@ -18,4 +18,14 @@ font-size: 14px;
 line-height: 18px;
 height: 40px;
 overflow: hidden;
+text-align: center;
+width: inherit;
+}
+
+.card .image {
+background-color: #FFF;
+/* width: 200px; */
+/* height: 135px; */
+text-align: center;
+border: 1px solid #eaedef;
 }
