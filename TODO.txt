@@ -2,4 +2,5 @@ Content - P0
 Color - P1
 Top Menu Bar - P1
 Cards - P2
-Fine Tune Scroll values - P2
+Fine Tune Scroll values/Scroll image while screen entry - P2
+
